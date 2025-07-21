@@ -63,3 +63,16 @@ $$\vec{E} = constant$$
 
 - How time-step methods approximate continuous motion
 
+## 5. Extensions & Improvements
+
+| Feature                     | Purpose                          |
+| --------------------------- | -------------------------------- |
+| Carrier Recombination       | Add realism to carrier lifetimes |
+| Spatially varying fields    | Simulate real junction profiles  |
+| Diffusion                   | Add random walk component        |
+| I-V Curve Generator         | Output performance plots         |
+| 2D or simulation            | Increase fidelity                |
+
+## 6. Reference
+
+- PV Education: www.pveducation.org
