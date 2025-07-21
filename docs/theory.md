@@ -35,4 +35,4 @@ $$\vec{E} = constant$$
 
 - The simulations uses a time-stepping approach:
 
-    - Update velocity: $$\v = v + a⋅\delta t$$
+    - Update velocity: $$v = v + a⋅\Delta t$$
