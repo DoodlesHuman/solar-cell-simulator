@@ -31,7 +31,7 @@ $$\vec{E} = constant$$
 
 - Using Newton's second law $$\vec{F} = m\vec{a}$$. Assuming unit mass:
 
-        $$\vec{a} = q\vec{E}$$
+        $$\vec{a} = q \vec{E}$$
 
 - The simulations uses a time-stepping approach:
 
