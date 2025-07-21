@@ -36,3 +36,30 @@ $$\vec{E} = constant$$
 - The simulations uses a time-stepping approach:
 
     - Update velocity: $$v = v + a⋅\Delta t$$
+    - Update position: $$x = x + v⋅\Delta t$$
+
+### 2.4 Light-Induced Carrier Generation
+- Photons with energy > bandgap excite electrons from the valence band to the conduction band.
+
+- This creates electron-hole pairs, which we simulate using random generation in a defined light-absorbing region.
+
+
+## 3. Simulation Assumptions
+
+| Assumption       | Justification                                 |
+| ---------------- | --------------------------------------------- |
+| 1D Motion        | Simplifies simulation and visualization       |
+| Constant Field   | Approximates built-in p-n junction field      |
+| Unit Mass        | Makes motion calculation straightforward      |
+| No Recombination | Focus on carrier motion, not lifetime         |
+| No Diffusion     | Purely drift-based simulation                 |
+
+## 4. What This Simulation Teaches
+- How electric fields drive current in PV cells
+
+- How electrons and holes respond differently to fields
+
+- Importance of carrier mobility and separation
+
+- How time-step methods approximate continuous motion
+
