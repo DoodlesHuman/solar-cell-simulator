@@ -29,4 +29,4 @@ $$\vec{E} = constant$$
     - **q** is the charge of the particle
     - **$$\vec{E}$$** is the Electric field
 
-- Using Newton's second law $$ \vec{F} = m\vec{a}$$ 
+- Using Newton's second law $$\vec{F} = m\vec{a}$$ 
