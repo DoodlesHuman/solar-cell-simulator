@@ -29,4 +29,10 @@ $$\vec{E} = constant$$
     - **q** is the charge of the particle
     - **$$\vec{E}$$** is the Electric field
 
-- Using Newton's second law $$\vec{F} = m\vec{a}$$ 
+- Using Newton's second law $$\vec{F} = m\vec{a}$$. Assuming unit mass:
+
+        $$\vec{a} = q\vec{E}$$
+
+- The simulations uses a time-stepping approach:
+
+    - Update velocity: $$\v = v + a⋅\delta t$$
