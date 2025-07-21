@@ -20,13 +20,13 @@ This simulation models the motion of charge carriers in the presence of an elect
 - This field drives separation of charge carriers, directing electrons toward the n-side and holes toward the p-side.
 
 In the simulation, this is modeled as a constant electric field, 
-$$ \vec{E} = constant$$
+$$\vec{E} = constant$$
 
 ### 2.3 Drift Motion
 
-- Charge carriers experience a force $$ \vec{F} = q\vec{E}$$, where
+- Charge carriers experience a force $$\vec{F} = q\vec{E}$$, where
     
     - **q** is the charge of the particle
     - **$$\vec{E}$$** is the Electric field
 
-- Using Newton's second law $$ \vec{F} = m\vec{a} $$ 
+- Using Newton's second law $$ \vec{F} = m\vec{a}$$ 
