@@ -4,7 +4,7 @@ from functools import wraps
 
 # Logging Set Up
 logging.basicConfig(
-    filename = "data/outputput/simulation.log",
+    filename = "data/output/simulation.log",
     level = logging.INFO,
     format = "%(asctime)s - %(levelname)s - %(message)s"
 )
