@@ -5,10 +5,7 @@ class Carrier:
         self.velocity = velocity
 
     def move(self, field, dt):
-        if self.charge_type = "electron":
-            q = -1
-        else:
-            q = 1
+        q = -1 if self.charge_type == 'electron' else 1
         force = q * field.value_at(self.positon)
         acceleration = force / 1  # unit mass is assumed
         self.velocity =  self.velocity + (acceleration * dt)
