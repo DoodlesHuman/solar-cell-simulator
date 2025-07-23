@@ -8,7 +8,7 @@ os.makedirs("data/output", exist_ok = True)
 
 def main():
     carriers = generate_carriers(10, 0.0, 1.0)
-    field = ElectricField()
+    field = ElectricField(1.0)
     sim = SolarCellSim(carriers, field, dt = 0.01, steps = 50)
     sim.run()
 

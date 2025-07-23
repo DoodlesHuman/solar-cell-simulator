@@ -23,6 +23,7 @@ def timeit(func):
 def log_step(func):
     @wraps(func)
     def wrapper(self, *args, **kwargs):
-        logging.info(f"Running step in : {func.__name__}")
+        step_num = len(self.trajectory)  # number of completed steps
+        logging.info(f"Step {step_num+1}: running {func.__name__} with {len(self.carriers)} carriers")
         return func(self, *args, **kwargs)
     return wrapper

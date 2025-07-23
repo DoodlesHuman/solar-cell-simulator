@@ -1,3 +1,5 @@
+from src.particle import Carrier
+
 import random
 
 def generate_carriers(num_pairs, region_start, region_end):
